@@ -156,3 +156,43 @@ a:focus {
     font-size: 1.65rem;
   }
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lcb-blue: #78A9E6;
+    --lcb-green: #7BC96A;
+    --lcb-gray: #B6C0CC;
+
+    --bg: #0F1722;
+    --card: #182331;
+    --text: #EAF1F8;
+    --muted: #B6C0CC;
+    --border: #2A3A4D;
+    --soft-blue: #21344A;
+    --soft-green: #1F3526;
+  }
+
+  body {
+    background: linear-gradient(180deg, #0B121B 0%, #101926 100%);
+  }
+
+  .card {
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .app-icon {
+    background: #F8FBFF;
+  }
+
+  .intro {
+    border-left-color: var(--lcb-blue);
+  }
+
+  a {
+    color: #8FD780;
+  }
+
+  a:hover,
+  a:focus {
+    color: #A6E79A;
+  }
+}

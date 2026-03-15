@@ -3,173 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Local Contact Backup | Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for the Local Contact Backup Android application">
-  <link rel="icon" type="image/x-icon" href="okrojone.ico">
+  <title>Privacy Policy – Local Contact Backup</title>
+  <meta name="description" content="Privacy Policy for the Local Contact Backup Android app.">
+  <link rel="stylesheet" href="style.css">
 
-  <style>
-    :root {
-      --lcb-blue: #133F76;
-      --lcb-green: #53A141;
-      --lcb-gray: #646E7B;
-      --bg: #f4f7fb;
-      --card: #ffffff;
-      --text: #1f2937;
-      --muted: #5f6b78;
-      --border: #d8e0ea;
-      --soft-blue: #eaf1f8;
-      --soft-green: #edf7ea;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--text);
-      background: linear-gradient(180deg, #f7fbff 0%, #eef4fb 100%);
-      line-height: 1.65;
-    }
-
-    .wrap {
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      padding: 24px;
-    }
-
-    .card {
-      width: 100%;
-      max-width: 900px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 38px 32px;
-      box-shadow: 0 14px 40px rgba(19, 63, 118, 0.12);
-    }
-
-    .top {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      margin-bottom: 18px;
-    }
-
-    .app-icon {
-      width: 88px;
-      height: 88px;
-      object-fit: contain;
-      border-radius: 18px;
-      background: #ffffff;
-      box-shadow: 0 8px 22px rgba(19, 63, 118, 0.10);
-      flex-shrink: 0;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 6px 12px;
-      border-radius: 999px;
-      background: var(--soft-green);
-      color: var(--lcb-green);
-      font-size: 0.9rem;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      margin: 0;
-      color: var(--lcb-blue);
-      font-size: 2rem;
-      line-height: 1.2;
-    }
-
-    .subtitle {
-      margin: 8px 0 0 0;
-      color: var(--lcb-gray);
-      font-size: 1.05rem;
-    }
-
-    .intro {
-      margin: 24px 0 0 0;
-      padding: 16px 18px;
-      background: var(--soft-blue);
-      border-left: 5px solid var(--lcb-blue);
-      border-radius: 12px;
-    }
-
-    .section {
-      margin-top: 26px;
-      padding-top: 22px;
-      border-top: 1px solid var(--border);
-    }
-
-    h2 {
-      margin: 0 0 10px 0;
-      color: var(--lcb-blue);
-      font-size: 1.15rem;
-    }
-
-    p {
-      margin: 0 0 14px 0;
-    }
-
-    ul {
-      margin: 0 0 14px 20px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    a {
-      color: var(--lcb-green);
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    a:hover,
-    a:focus {
-      text-decoration: underline;
-    }
-
-    .footer {
-      margin-top: 30px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .small {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 640px) {
-      .top {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .app-icon {
-        width: 72px;
-        height: 72px;
-      }
-
-      .card {
-        padding: 28px 20px;
-      }
-
-      h1 {
-        font-size: 1.65rem;
-      }
-    }
-  </style>
 </head>
+
 <body>
   <main class="wrap">
-    <article class="card">
+    <article class="card" role="article" aria-label="Privacy Policy">
       <div class="top">
         <img
           src="contact_backup_icon.png"
@@ -184,38 +26,39 @@
       </div>
 
       <p class="intro">
-        This Privacy Policy explains how the Local Contact Backup application handles user data.
+        This Privacy Policy explains how the <strong>Local Contact Backup</strong> application handles user data.
+        The app is designed to export your contacts to a CSV file <strong>locally on your device</strong>.
       </p>
 
       <div class="section">
-        <h2>Effective Date</h2>
+        <h2>Last updated</h2>
         <p>March 14, 2026</p>
       </div>
 
       <div class="section">
-        <h2>Overview</h2>
-        <p>
-          Local Contact Backup is an Android application designed to help users export and save contact data locally on their device.
-        </p>
-        <p>
-          The app is intended to operate locally, for the purpose of creating contact backups initiated by the user.
+        <h2>1. Who we are</h2>
+        <p>This app (“Local Contact Backup”) is provided by <strong>Jejx</strong>.</p>
+        <p class="small">
+          Contact: <a href="https://lcb.jejx.xyz/" rel="noopener">https://lcb.jejx.xyz/</a>
         </p>
       </div>
 
       <div class="section">
-        <h2>Data Access</h2>
+        <h2>2. What data the app accesses</h2>
         <p>
-          In order to create a backup file, the app may access contact data stored on the user's device, but only when the user chooses to perform such an action.
+          The app accesses your device contacts only when you request an export.
+          The exported data may include the contact fields available on your device (for example: names, phone numbers,
+          email addresses, postal addresses, notes, or other contact-related fields).
         </p>
         <p>
-          This contact data may include information saved by the user in their device contacts, such as names, phone numbers, email addresses, postal addresses, notes, or other contact-related fields available on the device.
+          Permission used: <code>READ_CONTACTS</code> (only for the export operation you initiate).
         </p>
       </div>
 
       <div class="section">
-        <h2>How Data Is Used</h2>
+        <h2>3. Why the app accesses contacts</h2>
         <p>
-          The app uses contact data solely to generate a backup file requested by the user.
+          The app reads contacts solely to generate a CSV backup file requested by the user.
         </p>
         <ul>
           <li>The app does not use contact data for advertising purposes.</li>
@@ -225,56 +68,72 @@
       </div>
 
       <div class="section">
-        <h2>Data Storage and Transfer</h2>
+        <h2>4. Data storage and transfer</h2>
         <p>
-          Backup files created by the app are saved locally by the user, using the location chosen by the user on their device or in their selected storage destination.
+          Backup files are exported as <strong>CSV</strong> and saved locally in the location you choose using Android’s
+          Storage Access Framework (SAF).
         </p>
         <p>
-          The app is intended to create local backups rather than upload contact data to a remote server as part of its core function.
+          The app <strong>does not upload or transmit</strong> your contacts to any server.
         </p>
       </div>
 
       <div class="section">
-        <h2>Data Sharing</h2>
+        <h2>5. Data sharing</h2>
         <p>
           The app does not share contact data with third parties as part of its core backup function.
         </p>
         <p>
-          If the user chooses to manually share an exported backup file, that action is performed by the user and is outside the automatic operation of the app.
+          If you use the Share feature, the exported CSV file is shared only with the app(s) you explicitly choose via
+          Android’s system share dialog. Those apps may have their own privacy policies.
         </p>
       </div>
 
       <div class="section">
-        <h2>User Control</h2>
+        <h2>6. User control</h2>
         <p>
-          The user decides whether to create a backup and where to save it.
+          You decide whether to create a backup, where to save it, and whether to share the exported file.
         </p>
         <p>
-          The user also remains responsible for any backup files they keep, copy, move, or share after export.
-        </p>
-      </div>
-
-      <div class="section">
-        <h2>Children's Privacy</h2>
-        <p>
-          The app is not specifically directed to children.
+          You remain responsible for any backup files you keep, copy, move, or share after export.
         </p>
       </div>
 
       <div class="section">
-        <h2>Changes to This Privacy Policy</h2>
+        <h2>7. Third-party services</h2>
         <p>
-          This Privacy Policy may be updated from time to time. Any updated version will be published on this page with a new effective date.
+          The app does not use analytics services, advertising SDKs, or remote servers (as of this version).
         </p>
       </div>
 
       <div class="section">
-        <h2>Contact</h2>
+        <h2>8. Security</h2>
         <p>
-          If you have questions about this Privacy Policy, you may contact:
+          The app uses standard Android mechanisms (SAF) to write the CSV file and share it with explicit user action.
+          You are responsible for keeping the exported file secure.
         </p>
+      </div>
+
+      <div class="section">
+        <h2>9. Children’s privacy</h2>
         <p>
-          <strong>privacy-lcb [at] jejx.xyz</strong>
+          The app is not directed to children and does not knowingly collect personal data from children.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>10. Changes to this policy</h2>
+        <p>
+          We may update this policy from time to time. Any updated version will be published on this page with a new “Last updated” date.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>11. Contact</h2>
+        <p>If you have questions about this Privacy Policy, you may contact:</p>
+        <p><strong><a href="https://lcb.jejx.xyz/" rel="noopener">https://lcb.jejx.xyz/</a></strong></p>
+        <p class="small">
+          Tip: you can add a dedicated support email later (for example, <code>privacy@jejx.xyz</code>).
         </p>
       </div>
 

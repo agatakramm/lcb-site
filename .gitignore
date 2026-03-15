@@ -1,0 +1,39 @@
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# --- IntelliJ / Android Studio ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- Gradle / build outputs ---
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# --- Local config ---
+local.properties
+*.log
+
+# --- Signing / secrets ---
+keystore.properties
+keystore/
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# --- Optional: generated APK/AAB (keep if you want artifacts in repo) ---
+# *.apk
+# *.aab
